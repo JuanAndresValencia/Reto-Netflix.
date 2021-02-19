@@ -47,10 +47,23 @@ header{
 .container-logo{
     width: 100%;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-logo h1{
+    display: flex;
+    align-self: flex-end;
+    position: relative;
+    bottom: 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    font-family: var(--fuentetitulos);
 }
 
 .container-logo img{
-    height: 30px;
+    height: 40px;
+    width: 30px;
     position: relative;
     left: 12px;
     top: 5px;
