@@ -37,7 +37,7 @@ header{
 }
 
 .container-video video{
-    height: 500px;
+    height: 320px;
 }
 
 .container-video{
@@ -82,7 +82,7 @@ header{
 
 .containerlistbuttons{
     position: absolute;
-    top: 550px;
+    top: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,7 +145,7 @@ header{
 /*Estilos Nav*/
 nav{
     width: 100%;
-    padding-top: 90px;
+    padding-top: 50px;
     display: flex;
 }
 
