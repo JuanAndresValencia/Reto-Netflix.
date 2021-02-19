@@ -171,5 +171,30 @@ section .container-caratulas{
     flex-direction: row;
     gap: 10px;
     overflow: auto;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+/*Estilos footer*/
+footer{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: black;
+    z-index: 5;
+    color: white;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+footer .icon-inicio, .icon-proximamente, .icon-buscar, .icon-descargas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: var(--fuentetextos);
+    font-weight: bold;
 }
