@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+/*Variables de color y fuentes*/
+:root{
+    --fuentetitulos: 'Open Sans', sans-serif;
+    --fuentetextos: 'Lato', sans-serif;
+    --colornegronetflix : #141414;
+    --colorblanconetflix : white;
+}
+
+
+/*Estilos Header*/
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-video video{
+    height: 500px;
+}
+
+.container-video{
+    overflow: hidden;
+}
+
+.container-logo{
+    width: 100%;
+    padding: 10px;
+}
+
+.container-logo img{
+    height: 30px;
+    position: relative;
+    left: 12px;
+    top: 5px;
+}
+
+.container-menu{
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.container-menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.container-menu ul li{
+   list-style: none;
+   font-size: 18px;
+   font-family: var(--fuentetextos);
+}
+
+.container-menu ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.containerlistbuttons{
+    position: absolute;
+    top: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.container-lista{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container-lista ul{
+    display: flex;
+    gap: 5px;
+}
+
+.container-lista ul li{
+    list-style: none;
+    font-size: 17px;
+    font-family: var(--fuentetextos);
+}
+
+.contenedor-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.const-lista, .const-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.const-info img, .const-lista img{
+    width: 30px;
+}
+
+.const-play button{
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 35px;
+    border: none;
+    font-size: 16px;
+    font-family: var(--fuentetextos);
+    border-radius: 2px;
+    outline: none;
+    padding-left: 16px;
+    background-image: url("./images/iconos/play.svg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-y: 7px;
+    background-position-x: 18px ;
+}
+
+/*Estilos Nav*/
+nav{
+    width: 100%;
+    padding-top: 90px;
+    display: flex;
+}
+
+nav section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav section h1{
+    align-self: flex-start;
+    padding-bottom: 12px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: var(--fuentetitulos);
+    font-weight: 800;
+
+}
+
+section .container-caratulas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow: auto;
+    padding-bottom: 20px;
+}
